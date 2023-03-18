@@ -3,9 +3,9 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * description: 'check if number is positive or negative'
- * Return: 0(success)
- */
+ * descriptionjhg jhhjjj
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
