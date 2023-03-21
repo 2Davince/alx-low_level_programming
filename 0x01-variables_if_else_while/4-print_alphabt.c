@@ -2,8 +2,8 @@
 /**
  * main - Entry point
  *
- * description : exclusion of e and q
- * Return 0 (success)
+ * description: program that prints all alphabetical orders except e and q
+ * Return: 0 (success)
  */
 int main(void)
 {
