@@ -1,0 +1,10 @@
+r.c:9:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    9 | {
+      | ^
+In file included from 0-putchar.c:1:
+main.h:3:5: error: old-style parameter declarations in prototyped function definition
+    3 | int _putchar(char c)
+      |     ^~~~~~~~
+0-putchar.c:22: error: expected ‘{’ at end of input
+   22 | 
+      | 
