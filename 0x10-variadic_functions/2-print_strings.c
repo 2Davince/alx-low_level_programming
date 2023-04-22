@@ -1,6 +1,5 @@
-#include "main.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
-#include <stdio.h>
 
 /**
  * print_strings - Prints strings separated by a string
