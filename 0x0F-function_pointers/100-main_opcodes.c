@@ -11,13 +11,16 @@
  */
 int main(int argc, char *argv[])
 {
+	int num_bytes, i;
+	unsigned char *ptr;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	int num_bytes = atoi(argv[1]);
+	num_bytes = atoi(argv[1]);
 
 	if (num_bytes < 0)
 	{
@@ -25,9 +28,9 @@ int main(int argc, char *argv[])
 		return (2);
 	}
 
-	unsigned char *ptr = (unsigned char *)&main;
+	ptr = (unsigned char *)&main;
 
-	for (int i = 0; i < num_bytes; i++)
+	for (i = 0; i < num_bytes; i++)
 	{
 		printf("%02x ", *(ptr + i));
 	}
